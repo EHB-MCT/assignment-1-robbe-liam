@@ -15,14 +15,12 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        playerMovement.GroundedCheck();
-        playerMovement.SpeedControl();
-        playerMovement.AddDragForce();        
+       
     }
 
     private void FixedUpdate()
     {
-        playerMovement.MovePlayer(playerInput.HorizontalInput(), playerInput.VerticalInput());
+
     }
 
 }
